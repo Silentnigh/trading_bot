@@ -4,7 +4,7 @@ from utils import place_order
 
 st.set_page_config(page_title="Trading Bot", layout="centered")
 
-st.title("📈 Binance Futures Trading Bot")
+st.title("Binance Futures Trading Bot")
 
 # Input area
 symbol = st.text_input("Symbol", "BTCUSDT")
