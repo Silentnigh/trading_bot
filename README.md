@@ -2,14 +2,14 @@
 This for Binance internship assignment
 
 ## Overview
-This project implements a basic crypto trading system that supports:
+This project implements a basic Binance trading system that supports:
 - MARKET orders
 - LIMIT orders
 
 ## Setup Steps
 
 1. Clone the repository:
-   git clone https://github.com/your-username/crypto-trading-bot.git
+   git clone https://github.com/your-username/trading-bot.git
    cd trading-bot
 
 2. Create virtual environment
@@ -48,7 +48,7 @@ this command for limit
 Order Summary:
 {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.001, 'price': 30000}
 
-✅ Order Placed
+Order Placed
 Order ID: 13060517210
 Status: NEW
 ## log generate :
