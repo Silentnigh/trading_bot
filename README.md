@@ -1,13 +1,12 @@
 # trading_bot
 This for Binance internship assignment
-# Crypto Trading Bot
 
-## 📌 Overview
+## Overview
 This project implements a basic crypto trading system that supports:
 - MARKET orders
 - LIMIT orders
 
-## ⚙️ Setup Steps
+## Setup Steps
 
 1. Clone the repository:
    git clone https://github.com/your-username/crypto-trading-bot.git
@@ -18,12 +17,12 @@ This project implements a basic crypto trading system that supports:
 3. Install dependencies:
    pip install -r requirements.txt
 
-## ▶️ How to Run
+##  How to Run
 
 Run the main script:
 python src/main.py
 
-## 📌 Example Usage
+##  Example Usage
 ### MARKET Order
 python src/main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 after the output are showing order summary then log are updated
