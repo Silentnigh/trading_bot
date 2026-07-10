@@ -23,7 +23,7 @@ if st.button("🚀 Place Order"):
 
     client = get_client()
 
-    st.subheader("📌 Order Summary")
+    st.subheader(" Order Summary")
     st.write({
         "Symbol": symbol,
         "Side": side,
@@ -36,7 +36,7 @@ if st.button("🚀 Place Order"):
         order = place_order(client, symbol, side, order_type, quantity, price)
 
         if order:
-            st.success("✅ Order Placed Successfully!")
+            st.success(" Order Placed Successfully!")
             st.json(order)
 
             # Fetch updated order info
